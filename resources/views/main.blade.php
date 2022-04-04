@@ -49,12 +49,16 @@
                         </div>
                         <div class="input-group">
                             <label class="label">No. Telepon <span style="color:red;">*</span></label>
-                            <input class="input--style-4" type="text" name="no_telepon" required>
+                            <input class="input--style-4" type="number" name="no_telepon" required>
                             <span>Format Pengisian No. Telepon : 6281234567890</span>
                         </div>
                         <div class="input-group">
-                            <label class="label">Alamat <span style="color:red;">*</span></label>
-                            <textarea class="input--style-4" name="alamat" style="width: 549px;height: 106px;" required></textarea>
+                            <label class="label">Asal Kota <span style="color:red;">*</span></label>
+                            <input class="input--style-4" type="text" name="asal_kota" required>
+                        </div>
+                        <div class="input-group">
+                            <label class="label">Usia <span style="color:red;">*</span></label>
+                            <input class="input--style-4" type="number" name="usia" required>
                         </div>
                         <div class="input-group">
                             <label class="label">Jenis Kelamin</label>
@@ -66,6 +70,10 @@
                                 </select>
                                 <div class="select-dropdown"></div>
                             </div>
+                        </div>
+                        <div class="input-group">
+                            <label class="label">Event <span style="color:red;">*</span></label>
+                            <input class="input--style-4" type="text" name="event" required>
                         </div>
                         <div class="p-t-15">
                             <button class="btn btn--radius-2 btn--blue" type="submit">Submit</button>
